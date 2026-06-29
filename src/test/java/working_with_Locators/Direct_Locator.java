@@ -23,7 +23,7 @@ public class Direct_Locator {
 		password.sendKeys("Megha@123");
 		Thread.sleep(4000);
 
-//		 WebElement links= driver.findElement(By.className("x193iq5w"));  // 
+//		 WebElement links= driver.findElement(By.className("x193iq5w"));  
 //		 links.click();
 
 //	  WebElement links =  driver.findElement(By.linkText("Forgot password?"));
@@ -40,7 +40,7 @@ public class Direct_Locator {
 //		System.out.println(totaltg);
 
 		Thread.sleep(4000);
-		driver.quit();
+		driver.quit();  // this quit bowser
 
 	}
 
